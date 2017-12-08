@@ -1,0 +1,24 @@
+.Container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 30px 30px 30px;
+}
+
+.Item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.Item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: red;
+  height: 50px;
+}
+.Item3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.Item4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

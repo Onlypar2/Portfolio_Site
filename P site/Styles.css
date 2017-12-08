@@ -18,6 +18,21 @@ body {
   height: 80%;
   width: 970px;
 }
+
+.main_div2 {
+  display: flex;
+  margin: auto;
+  box-shadow: 0px 0px 30px 3px #222;
+  background-color: #333333;
+  /*background-image: linear-gradient(to bottom,#222,#333333);*/
+  opacity: 1;
+  border-radius: 20px;
+  height: 80%;
+  width: 970px;
+  display: block;
+  top: -650 px;
+  position: relative;
+}
 /*Navbar*/
 .navbar {
   display: flex;
