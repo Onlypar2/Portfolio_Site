@@ -8,9 +8,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   font-weight: 700;
   background-color: #C8E5E5;
-  box-shadow: 2px 5px 25px #888888;
+  box-shadow: 2px 0px 150px #888888;
   width: 100%;
   height: 100%;
 }
@@ -25,12 +27,45 @@ body {
   width: 160px;
 }
 
-.prim-dscrp{
-  margin-left: 2rem;
-width: 350px;
+ul{
+  list-style-type: none;
 }
 
-p{
+ul.nav_items {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  color:#666666;
+}
+
+li.li_items {
+  padding-right: 1rem;
+}
+
+.nav {
+   display: flex;
+   flex-direction:row;
+}
+
+.prim-dscrp{
+  margin-top: 5rem;
+  margin-left: 2rem;
+  width: 350px;
+}
+
+p {
   font-weight: 300;
   color: #666666;
+}
+
+.card {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-self: flex-end;
+  box-shadow: 2px 0px 150px #888888;
+  width: 50%;
+  height: 100%;
 }
