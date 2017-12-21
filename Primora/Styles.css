@@ -67,7 +67,7 @@ p {
   background-color: white;
   align-self: flex-end;
   -webkit-box-shadow: -40px 0 70px -10px rgba(0,0,0,0.10);
-  box-shadow: -40px 0 50px -10px rgba(0,0,0,0.10);
+  box-shadow: -40px 0 50px -10px rgba(0,0,0,0.15);
   width: 50%;
   height: 100%;
 }
