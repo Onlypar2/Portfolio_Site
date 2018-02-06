@@ -74,18 +74,44 @@ body {
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: 
     ". form .";
     width: 100%;
     height: 350px;
-    background-color: #666666;
+    background-color: #444444;
 }
 
 .form {
-    width: 300px;
-    height: 350px;
-    background-color: #666666;
+    grid-area: form;
+    margin-top: 170px;
+    height: 320px;
+    background-color: #999999;
+    border-radius: 10px;
+}
+
+.offers {
+    display: grid;
+    grid-column-gap: 35px;
+    height: 250px;
+    grid-template-columns: 5% 22% 22% 22% 5%;
+    margin-top: 200px;
+    grid-template-areas: 
+    " . offer1 offer2 offer3 . ";
+    justify-content: center;
+}
+
+.offer1 {
+    grid-area: offer1;
+    background-color: #444444;
+}
+.offer2 {
+    grid-area: offer2;
+    background-color: #444444;
+}
+.offer3 {
+    grid-area: offer3;
+    background-color: #444444;
 }
 
 .client {
