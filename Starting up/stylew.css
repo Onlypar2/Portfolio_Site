@@ -1,0 +1,105 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 60px;
+    background-color: #c4c4c4;
+    grid-template-areas:
+    "logo navitems navicons"
+}
+.logo {
+    grid-area: logo;
+    justify-self: end;
+    background-color:#999999;
+    width: 200px;
+    height: 80px;
+}
+.logo p {
+    text-align: center;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: auto;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.navlist {
+    padding-top: 5px;
+    list-style: none; 
+    color: white;
+    font-weight: 200;
+    /* display: block; */
+}
+
+.navitems{
+    grid-area: navitems;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navitems li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navitems ul {
+    /* display: block; */
+}
+
+.navicons {
+    grid-area: navicons;
+    display: block;
+    align-self: center;
+    padding-bottom: 17PX;
+}
+
+.circle {
+    
+    display: inline-block;
+	width: 30px;
+    height: 30px;
+    margin-left: 10px;
+	background: #999999;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    ". form .";
+    width: 100%;
+    height: 350px;
+    background-color: #666666;
+}
+
+.form {
+    width: 300px;
+    height: 350px;
+    background-color: #666666;
+}
+
+.client {
+
+}
+
+.quotes {
+
+}
+
+.gallery {
+
+}
+
+.footer {
+
+}
