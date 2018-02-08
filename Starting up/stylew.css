@@ -168,15 +168,17 @@ body {
     display: grid;
     grid-area: client;
     padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 100px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 50px 50px 150px 100px;
     grid-template-areas:
+    "dp dp head head ."
     "dp dp head head ."
     "dp dp text text text"
     "logo logo logo logo logo";
     grid-gap: 50px;
     background-color: #999999;
     border-radius: 10px;
+    height: 500px;
 }
 
 .dp{
@@ -186,8 +188,8 @@ body {
     grid-row-start: 1;
     grid-row-end: span 3;
     background-color: #ffffff;
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     justify-self: center;
     align-self: center;
@@ -201,20 +203,45 @@ body {
     grid-row-end: span 1;
     background-color: #333;
     border-radius: 10px;
-    justify-self: center;
-    align-self: center;
-    height: 50%;
+    justify-self: start;
+    align-self: start;
+    height: 100%;
     width: 90%;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .logos {
+    display: grid;
     grid-area: logos;
     grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 2;
-    grid-row-end: span 2;
+    grid-column-end: span 6;
+    grid-row-start: 4;
+    grid-row-end: span 1;
     background-color: aqua;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-areas: "a b c d e f";
+}
+
+.a {
+
+}
+.b {
+
+}
+.c {
+
+}
+.d {
+
+}
+.e {
+
+}
+.f {
+
 }
 
 .text {
@@ -225,7 +252,7 @@ body {
     grid-row-end: span 2;
     background-color: rgb(23, 43, 43);
     border-radius: 10px;
-    height: 80%;
+    height: 100%;
     width: 95%;
 }
 
