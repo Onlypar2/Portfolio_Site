@@ -1,0 +1,30 @@
+.nopad {
+    padding: 0px !important;
+}
+.hero {
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
+
+.content {
+    margin: 20px 20px 0px 20px;;
+}
+
+.vert-nav {
+    padding: 20px 0px 20px 0px !important;
+}
+
+.content .nav-pills .nav-link.active  {
+    background-color: white;
+    color: #f08200;
+    position: relative;
+    padding-left: 30px;
+} 
+
+.content .nav-pills .nav-link.active:before {
+    content: "";
+    position: absolute;
+    border-left: #f08200 3px solid;
+    height: 25px;
+    left: 16px;
+} 
